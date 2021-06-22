@@ -284,6 +284,31 @@ body {
     color: #ffffff;
     transition: all 0.2s;
   }
+          
+          .hiddenimg {
+          display: none;
+          }
+
+          .hiddenclick {
+          font-weight: bold;
+          color: #F00;
+          text-decoration: none;
+          cursor: pointer;
+          }
+
+        .hiddenclick button {
+          color: #F00;
+          text-decoration: none;
+          }
+          .button__text:hover ~ .hiddenimg {
+          display: block;
+          position: absolute;
+            z-index: 2
+        }
+
+        .hiddenclickimg {
+          display: none;
+        }
   
     </style>
     <body>
